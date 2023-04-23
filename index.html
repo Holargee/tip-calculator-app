@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Splitter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet"href="splitter.css">
+ <script src="splitter.js"></script>
+</head>
+<body>
+    <div class="bill">Bill</div>
+ <h3> <span class="do dos">$</span> <input type="number"class="num"placeholder="Bill"id="bill"></h3>
+ <h5 class="st">Select tip %</h5>
+ <div>
+ <button class="but" id="p5">5%</button>
+ <button class="but">10%</button>
+ </div> <br><div>
+ <button class="but">15%</button>
+     <button class="but">20%</button>
+     </div><br><div>
+     <button class="but">25%</button>
+     <input class="but" type="number"placeholder="custom"id="per">
+ </div>
+ <div class="no">Number of people
+   <span class="ca">Cant be zero</span>
+ </div>
+ <span class="do fa fa-user"></span><input type="number"class="num"placeholder="Number of people"id="people">
+ <div class="b2">
+  <div>Tip Amount<span class="fl"id="ans"><b>$4.27</b></span> <br><span class="pe"> / Person</span></div><p></p>
+    <div>Total<span class="fl"><b>$32.79</b></span> <br><span class="pe"> / Person</span></div><p></p>
+<center><input type="button" value="RESET" class="re" onclick="sli()"></center>
+</body>
+</html>
+
